@@ -31,8 +31,8 @@ export default function EditBook() {
 
   React.useEffect(() => {
     getBookData();
-  }, []);
-
+// eslint-disable-next-line
+  },[]); 
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
